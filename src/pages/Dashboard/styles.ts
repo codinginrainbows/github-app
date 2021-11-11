@@ -37,7 +37,7 @@ export const Form = styled.form<FormProps>`
     ${props => props.hasError && css`
       border: 1px solid #ff0000;
       border-right: 0;
-      animation: shake 0.30s cubic-bezier(.36,.07,.19,.97) both ;
+      animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
 

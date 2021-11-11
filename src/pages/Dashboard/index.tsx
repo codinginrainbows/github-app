@@ -73,7 +73,7 @@ const Dashboard: React.FC = () => {
       <Repositories>
         {repos.map(repo => (
           // eslint-disable-next-line react/jsx-no-target-blank
-          <Link key={repo.full_name} to={`repositories/${repo.full_name}`} target="_blank">
+          <Link key={repo.full_name} to={`repositories/${repo.full_name}`}>
             <img src={repo.owner.avatar_url} alt={repo.owner.login} />
               <div>
                 <strong>{repo.owner.login}</strong>
